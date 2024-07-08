@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="Estilos-inicio.css">
+</head>
+<body>
+    <div class="advertencia_celular">
+        Esta página no es apta para celulares.
+    </div>
+    <header class="head-pag-4">
+        <div class="video-container">
+            <div class="video-background">
+                <video autoplay muted loop id="background-video"> 
+                    <source src="vid-fondo-otro.mp4" type="video/mp4">
+                    Tu navegador no soporta
+                </video>
+            </div>
+        </div>
+        <div class="content-pag-4">
+            <h2 class="primer-linea-pag-4">SE VALIENTE PARA TOMAR<br>EL CONTROL DE LA VIDA</h2>
+        </div>
+    </header>
+    <div class="contenedor-formulario">
+        <section class="formulario">
+            <p class="Titulo-contactame">LE CONTACTAMOS</p>
+            <form action="Datos.html" name="Datos-contacto" method="post" autocomplete="on" target="_blank">
+                <div>
+                    Nombre: <input type="text" name="name" placeholder="Your Name"> <br>
+                    Email: <input type="email" name="email"> <br>
+                    Numero de Contacto: <input type="number" name="phone"> <br>
+                    Pais: 
+                    <select id="country" name="country" aria-placeholder="Your Country">
+                        <option value="co">(+57) Colombia</option>
+                        <option value="mx">(+21) México</option>
+                        <option value="us">(+1) Estados Unidos</option>
+                        <option value="ca">(+1) Canadá</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="start">Fecha de nacimiento:</label>
+                    <input type="date" id="start" name="start" max="2006-06-20">
+                </div>
+                
+                <div>
+                    Genero: <br>
+                    <input type="radio" name="gen" value="M"> Hombre
+                    <input type="radio" name="gen" value="F"> Mujer
+                    <input type="radio" name="gen" value="NB"> No Binario
+                    <input type="radio" name="gen" value="Other"> Otro 
+                </div>   
+                <div>
+                    Servicios: <br>
+                    <input type="checkbox"> Juridico
+                    <input type="checkbox"> Tratamientos
+                    <input type="checkbox"> Psiquiatría
+                    <input type="checkbox"> Agendar Cita
+                    <br><br>
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message"></textarea>
+                    
+                </div>
+                <input type="submit">
+            </form>
+        </section>
+    </div>
+    <nav class="pag-3">
+        <a class="border-pag-2"href="Inicio.html">INICIO</a>
+    </nav>
+    <a href="Goodbye.html">
+        <footer class="pag">
+            <h1><strong><br>GOODBYE<br>Eutanasia</strong></h1>
+            <p>Toma el Control</p>
+        </footer>
+    </a>
+</body>
+</html>
