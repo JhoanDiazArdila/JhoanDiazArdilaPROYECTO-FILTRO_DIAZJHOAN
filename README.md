@@ -4,15 +4,16 @@
 
 GOODBYE es una landing page diseñada para informar sobre los servicios ofertados en GOODBYE y recolectar la información del interesado. Está dirigida a personas con enfermedades terminales o dolencias insoportables.
 
-## Tabla de Contenidos
 
-- Instalación
-- Uso
-- Estructura del Proyecto
-- Tecnologías Utilizadas
-- Contribuciones
-- Licencia
-- Autor
+## Tabla de Contenidos
+| Indice | Titulo |
+| 1 | Instalación |
+| 2 | Uso |
+| 3 | Estructura del Proyecto |
+| 4 | Tecnologías Utilizadas |
+| 5 | Contribuciones |
+| 6 | Licencia |
+| 7 | Autor|
 
 ## Instalación
 
