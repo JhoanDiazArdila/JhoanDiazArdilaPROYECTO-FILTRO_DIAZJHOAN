@@ -18,8 +18,7 @@ GOODBYE es una landing page diseñada para informar sobre los servicios ofertado
 
 Para ejecutar este proyecto localmente, sigue los siguientes pasos:
 
-1. Clona este repositorio:
-   https://github.com/JhoanDiazArdila/PROYECTO-FILTRO_DIAZJHOAN
+1. Clona este repositorio: [Presiona aqui](https://github.com/JhoanDiazArdila/PROYECTO-FILTRO_DIAZJHOAN)
 
 2. Navega al directorio del proyecto:
    cd PROYECTO-FILTRO_DIAZJHOAN
