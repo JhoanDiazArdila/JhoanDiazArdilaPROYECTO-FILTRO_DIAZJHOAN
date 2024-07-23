@@ -6,7 +6,9 @@ GOODBYE es una landing page diseñada para informar sobre los servicios ofertado
 
 
 ## Tabla de Contenidos
+
 | Indice | Titulo |
+| -- | --|
 | 1 | Instalación |
 | 2 | Uso |
 | 3 | Estructura del Proyecto |
