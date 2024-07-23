@@ -51,8 +51,6 @@ Toda contribución es bien recibida y agradecemos el apoyo. Para contribuir, sig
 
 ## Licencia
 
-No se ha especificado una licencia para este proyecto. Recomendamos utilizar la licencia MIT por su simplicidad y permisividad. Aquí está un ejemplo de la licencia MIT:
-
 MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
