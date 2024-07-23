@@ -79,7 +79,7 @@ SOFTWARE.
 
 ## Capturas de Pantalla
 
-![Screenshot 1](/PROYECTO-FILTRO_DIAZJHOAN/FotosREADME/screenshot1.png)
-![Screenshot 2](/PROYECTO-FILTRO_DIAZJHOAN/FotosREADME/screenshot2.png)
-![Screenshot 3](/PROYECTO-FILTRO_DIAZJHOAN/FotosREADME/screenshot3.png)
-![Screenshot 4](/PROYECTO-FILTRO_DIAZJHOAN/FotosREADME/screenshot4.png)
+![Screenshot 1](./PROYECTO-FILTRO_DIAZJHOAN/FotosREADME/Screenshot1.png)
+![Screenshot 2](./PROYECTO-FILTRO_DIAZJHOAN/FotosREADME/Screenshot2.png)
+![Screenshot 3](./PROYECTO-FILTRO_DIAZJHOAN/FotosREADME/Screenshot3.png)
+![Screenshot 4](./PROYECTO-FILTRO_DIAZJHOAN/FotosREADME/Screenshot4.png)
