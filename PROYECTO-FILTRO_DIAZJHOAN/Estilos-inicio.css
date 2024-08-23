@@ -43,33 +43,6 @@ header.head-pag-1 {
     overflow: hidden;
 }
 
-/* footer.pag{
-    display: flex;
-    flex-direction: column;
-    margin-left: 42%;
-    margin-right: 42%;
-    height: 30vh;
-    padding-top: 0vw;
-    padding-bottom: 1vw;
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
-    background-color: rgba(0, 68, 255, 0.812);
-    text-align: center;
-    font-size: 1vw;
-    border-radius: 0.5vw;
-    transition-property: all;
-    transition-duration: 2s;
-    transition-timing-function: cubic-bezier(0,0,0.58,1);
-    box-shadow: inset 1px 1px 10px #000000ba, inset -1px -1px 10px rgb(0, 0, 0);
-}
-
-footer.pag:hover{
-    scale: 1.3;
-    box-shadow: 12px 12px 15px rgba(239, 247, 9, 0.729), -12px -12px 15px rgba(239, 247, 9, 0.729);
-    transition-property: all;
-    transition-duration: 3s;
-    transition-timing-function: cubic-bezier(0,0,0.58,1);
-} */
 
 .pag{ 
     display: flex;
@@ -91,7 +64,6 @@ footer.pag:hover{
     transition-timing-function: cubic-bezier(0,0,0.58,1);
     box-shadow: inset 1px 1px 10px #000000ba, inset -1px -1px 10px rgb(0, 0, 0);
 }
-
 .pag:hover{
     scale: 1.3;
     box-shadow: 12px 12px 15px rgba(239, 247, 9, 0.729), -12px -12px 15px rgba(239, 247, 9, 0.729);
@@ -99,21 +71,9 @@ footer.pag:hover{
     transition-duration: 3s;
     transition-timing-function: cubic-bezier(0,0,0.58,1);
 }
-
-
-/* @media (max-width: 768px) {
-    footer {
-        flex-direction: column;
-        align-items: center;
-        font-size: auto;
-    }       
-} */
-
-
 strong{
     text-decoration: none;
 }
-
 a{
     text-decoration: none;
 }
@@ -121,11 +81,9 @@ p {
     font-family: "hatton";
     color: var(--text-color);
 }
-
 u{
     text-decoration: none;
 }
-
 .video-container {
     position: fixed;
     top: 0;
@@ -135,7 +93,6 @@ u{
     overflow: hidden;
     z-index: -1; 
 }
-
 #background-video {
     position: absolute;
     top: 50%;
@@ -146,16 +103,6 @@ u{
     transform: translate(-50%, -50%);
 }
 
-/* .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.03);
-    z-index: 1;
-} */
-
 .content {
     position: relative;
     z-index: 2;
@@ -165,10 +112,7 @@ u{
     padding-top: 0;
     margin-bottom: 10vw;
     margin-top: 1vw;
-
 }
-
-
 h1, h2, h3 {
     font-family: "Leyton";
     color: var(--dorados);
@@ -177,16 +121,12 @@ h1, h2, h3 {
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0,0,0.58,1);
 }
-
-
-
 h3:hover{
     scale: 1.2;
     transition: scale;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0,0,0.58,1);
 }
-
 .primer-linea{
     margin-top:5vw;
     font-size: 6.3vw;
@@ -242,9 +182,6 @@ h3:hover{
     align-self:flex-end;
 }
 
-
-
-
 nav.pag-1{
     display: flex;
     justify-content: space-evenly;
@@ -276,21 +213,6 @@ a.border-pag-1 {
 }
 
 /* Termina la pagina 1-Inicio*/
-
-
-
-/* header.head-pag-2 {
-    position: relative;
-    width: 100%;
-    height: 70vh;
-
-} */
-/* .head-pag-2 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 5vh;
-} */
 
 .primer-linea-pag-2{
     margin-top:10vw;
@@ -332,13 +254,6 @@ a.border-pag-2 {
 /* Termina la pagina 2 Yo-necesito*/
 
 
-
-/* header.head-pag-3 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-} */
 .primer-linea-pag-3{
     margin-top:5vw;
     margin-bottom:10vw ;
@@ -352,18 +267,21 @@ a.border-pag-2 {
 .espacio-tabla{
     margin-bottom: 10vw;
     margin-top: 10vw;
+    /* overflow-x: auto;
+    -webkit-overflow-scrolling: touch;  */
+    width: 100%; 
 }
 .estilo-tabla{
     border-collapse: collapse; 
-    margin: 8vw 5vw;
+    margin: 8vw 2.5vw 5vw 2.5vw;
     font-size: 18px;
     box-shadow: 1px 1px 20px rgb(245, 233, 123), -1px -1px 20px rgb(245, 233, 123);
     color: white;
     background-color:var(--fondo-tabla);
     text-align: center;
-    table-layout: fixed
+    table-layout: fixed;
+    width: 94vw;
 }
-
 
 .Titulo-Servicio{
     font-size: 5vw;
@@ -372,7 +290,6 @@ a.border-pag-2 {
     color: white;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5), 4px 4px 5px rgb(212, 180, 241) ;
 }
-
 .estilos-titulos-servicios{
     font-family: "hatton";
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5) ;
@@ -382,20 +299,19 @@ a.border-pag-2 {
     text-align: justify;
 }
 
-.mover-img3{
-    transform: translateY(30%);
-}
-
 .texto-Adios:hover{
     border-left: #000000 solid;
     border-right: #000000 solid;
 }
-
 .estilo-tabla td {
-    padding: 1.5vw;
+    padding: 1vw;
     width: 100vw;
     vertical-align: top
 }
+.estilo-tabla th, .estilo-tabla td {
+    vertical-align: middle;
+}
+
 .estilo-tabla thead tr:hover {
     background-color: var(--resaltado-tabla); 
 }
@@ -403,10 +319,12 @@ a.border-pag-2 {
     background-color: var(--resaltado-tabla); 
 }
 .estilo-tabla img{
+    object-fit: cover;
+    display: block;
     margin-top: 1vw;
     padding: 0vw;
     width: 100%;
-    height: 100%;
+    height: 35vh;
 }
 
 nav.pag-3{
@@ -421,13 +339,6 @@ nav.pag-3{
 
 
 
-/* .head-pag-4 {
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    overflow: hidden;
-} */
-
 .primer-linea-pag-4{
     margin-top:5vw;
     margin-bottom:1vw ;
@@ -440,7 +351,7 @@ nav.pag-3{
     z-index: 2;
     text-align: center;
     padding: 1vw;
-    margin-bottom: 25vw;
+    margin-bottom: 20vh;
 }
 /* FORMULARIO */
 
@@ -521,50 +432,24 @@ form input[type="submit"]:hover {
 /* Termina Pag-4-contacto */
 
 
-.mover-img-pag5{
-    transform: translateY(15%);
-}
-
 .primer-linea-pag-5{
     margin-top:5vw;
-    margin-bottom:10vw ;
+    margin-bottom:1vh ;
     font-size: 4.3vw;
 }
 
 /* Termina pag 5 */
 
-
-/* header.head-pag-6 {
-    position: relative;
-    width: 100%;
-    height: 200vh;
-    overflow: hidden;
-} */
-
-.mover-img-pag6{
-    transform: translateY(3.2%);
-}
-.mover-img-pag6-a{
-    transform: translateY(6.2%);
-}
-
-
 .texto-borde-tabla1:hover{
     border-right: #000000 solid;
 }
-
 .texto-borde-tabla2:hover{
     border-left: #000000 solid;
     border-right: #000000 solid;
 }
-
-
 .texto-borde-tabla3:hover{
     border-left: #000000 solid;
 }
-
-
-
 
 
 /* GOODBYE */
@@ -639,12 +524,10 @@ a.border-pag-good:hover {
     color: rgb(5, 216, 60);
 }
 
-
 .nombre{
     font-size: 10vw;
     color: var(--dorados);
 }
-
 
 .contenedor-sect-good{
     display: flex;
@@ -826,8 +709,6 @@ footer.footer-good{
 }
 
 
-
-
 .advertencia_celular {
     display: none;
 }
@@ -858,6 +739,149 @@ div.advertencia_celular img{
 
 
 
+
+
+/* -----------------  Pagina Compra----- */
+
+.contenedor-sect-compras{
+    /* width: 100%; */
+    height: auto;
+    text-align: center;
+    /* font-size: 2em; */
+    margin: 10vh 10vw;
+    padding:1vw;
+    background-color: rgba(5, 216, 61, 0.579);
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 1.5vw;
+}
+.contenedor-sect-compras h4{
+    font-size: 4em;
+    margin-bottom: 10vh;
+}
+
+.espacio-productos{
+    border-collapse: collapse; 
+    margin: 8vw 2.5vw 5vw 2.5vw;
+    box-shadow: 1px 1px 20px rgb(245, 233, 123), -1px -1px 20px rgb(245, 233, 123);
+    table-layout: fixed;
+
+}
+.espacio-productos h6{
+    font-size: 2em;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0,0,0.58,1);
+    
+}
+.espacio-productos h6:hover{
+    background-color: #5DC1B9;
+    border: 0.5vw inset;
+    padding: 0.8vw 0.8vw;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: cubic-bezier(0,0,0.58,1);
+    
+}
+.espacio-productos img{
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.mercancias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mercancias form select {
+    width: auto;
+    height: 45px;
+    padding: 1vw;
+    margin: 10px 0;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+}
+.mercancias form input[type="submit"] {
+    background-color: #19bb3f;
+    color: white;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 1.3em;
+}
+
+.nombre-mercancia{
+    font-size: 2.5vw;
+    padding-top: 3vh;
+    margin-bottom: 1vh;
+    color: var(--text-color);
+}
+.nombre-mercancia:hover{
+    transform: rotateY(360deg);
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: cubic-bezier(0,0,0.58,1);
+}
+.descripcion-mercancia{
+    width: 80%;
+    font-family: Ro;
+    font-size: 1.6vw;
+    margin-bottom: 4vw;
+    margin-top: 2vh;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0,0,0.58,1);
+}
+.descripcion-mercancia:hover{
+    background-color: #5DC1B9;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0,0,0.58,1);
+    border: 0.5vw inset;
+    border-radius: 2vw;
+    padding: 0.8vw 0.8vw;
+}
+
+
+
+.cont-proceso-pago{
+    height: auto;
+    /* text-align: center; */
+    margin: 10vh 30vw;
+    padding:1vw;
+    background-color: rgba(5, 205, 216, 0.579);
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 1.5vw;
+}
+
+.cont-proceso-pago h5{
+    text-align: center;
+    font-size: 2em;
+}
+.cont-proceso-pago form input[type="submit"] {
+    background-color: #1977bb;
+    color: white;
+    /* margin: 10px 20px; */
+    /* padding: 10px 15px; */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:none;
+    font-size: 1.3em;
+}
+
+
+
+
+
 @media (max-width: 330px) {
     .advertencia_celular {
         display: block;
@@ -867,7 +891,7 @@ div.advertencia_celular img{
 }
 
 
-@media only screen and (max-width:630px){
+@media only screen and (max-width:644px){
     .content{
         /* height: 50vh; */
         display: flex;
@@ -991,17 +1015,17 @@ div.advertencia_celular img{
         width: 100%; 
     }
     .estilo-tabla {
-        width: 300vw; 
+        width: 280vw; 
     }
     .estilo-tabla th, .estilo-tabla td {
-        padding: 10px; 
+        padding: 18px; 
         vertical-align: middle;
     }
     .Titulo-Servicio{
-        font-size: 4.5em;
+        font-size: 3.7em;
     }
     .estilos-titulos-servicios{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .estilo-tabla img{
         object-fit: cover;
@@ -1014,7 +1038,7 @@ div.advertencia_celular img{
     }
     .texto-interno{
         text-align: justify;
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     nav.pag-3{
         display: flex;
@@ -1305,10 +1329,77 @@ div.advertencia_celular img{
         color: var(--text-color);
         font-size: 0.6em;
     }
+    /* ---------------COMPRAS */
+
+    .contenedor-sect-compras{
+        margin-top: 10vh;
+    }
+
+    .contenedor-sect-compras h4{
+        font-size: 2.3em;
+        margin-bottom: 8vh;
+    }
+    .espacio-productos h6{
+        font-size: 1.5em;
+    }
+    .nombre-mercancia{
+        font-size: 1.4em;
+    }
+    .mercancias form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40vw;
+    }
+    .mercancias form select {
+        width: auto;
+        height: 45px;
+        padding: 1vw;
+        margin: 10px 0px;
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 4px;
+    }
+    .mercancias form input[type="submit"] {
+        width: auto;
+        background-color: #19bb3f;
+        color: white;
+        margin: 10px 0px;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float:none;
+        font-size: 1.2em;
+    }
+    .descripcion-mercancia{
+        font-size: 1.5em;
+    }
+
+    .cont-proceso-pago{
+        height: auto;
+        text-align: center;
+        width: 70%;
+        margin: 2vh auto;
+    }
+    
+    .cont-proceso-pago h5{
+        text-align: center;
+        font-size: 2em;
+    }
+    .cont-proceso-pago form input[type="submit"] {
+        background-color: #1977bb;
+        color: white;
+        /* margin: 10px 20px; */
+        /* padding: 10px 15px; */
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float:none;
+        font-size: 1em;
+    }
+
+
+
+
+
 }
-
-
-
-
-
-
