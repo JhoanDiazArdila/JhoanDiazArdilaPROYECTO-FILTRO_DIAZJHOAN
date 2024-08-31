@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 :root {
     --background-color: hsl(0, 0%, 97%); /* Blanco roto */
     --primary-color: rgb(98, 253, 253); /* Azul pastel */
@@ -506,6 +508,7 @@ nav.pag-good{
     top: 5vw;
     left: 2vw;
     margin: 1vw;
+    z-index: 100;
 }
 a.border-pag-good {
     color: var(--secondary-color);
@@ -743,11 +746,182 @@ div.advertencia_celular img{
 
 /* -----------------  Pagina Compra----- */
 
+
+#pagina-Compras{
+    background-image: url("./imagenes/Fondo_goodbye.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-clip: padding-box; */
+    background-attachment: fixed;
+}
+
+nav.pag-compra{
+    position: fixed;
+    top: 5vw;
+    left: 2vw;
+    margin: 1vw;
+    z-index: 100;
+}
+a.border-pag-compra {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.5s ease-in-out;
+    text-align: center;
+    border: 0.5vw inset;
+    border-color: rgb(5, 216, 60) ;
+    border-radius: 1.5vw;
+    padding: 0.5vw;
+    background-color: #2c2c2ce0;
+    height:fit-content;
+}
+a.border-pag-compra:hover {
+    color: rgb(5, 216, 60);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);;
+}
+
+
+i {
+    color: #000000;
+    font-size: 4rem;
+}
+i:hover {
+    color: #f5cca0;
+    cursor: pointer;
+}
+i:active {
+    color: #6b240c;
+}
+.container-icon {
+    position: sticky;
+    top: 2vh;
+    left: 90vw;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    /* background-color:#a0d8f1; */
+}
+.cont-products {
+    position: absolute;
+    top: 6vh;
+    right: 6vw;
+    margin-left: 0vw;
+    background-color: #000000;
+    color: #ffffff;
+    width: 1.5vw;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+.container-cart-products {
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    margin-right: 1vw;
+    z-index: 1;
+    background-color: #ffffff;
+    width: 28vw;
+    box-shadow: 0 10px 2px rgba(0, 0, 0, 0.281);
+    border-radius: 10px;
+}
+.cart-product {
+    display: flex;
+    padding: .4rem;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+
+}
+.info-cart-product {
+    display: flex;
+    font-family:'Times New Roman', Times, serif ;
+    justify-content: space-between;
+    flex: 1;
+}
+.icon-close {
+    font-size: 1.6rem;
+    color: #fb952c;
+}
+.icon-close:hover {
+    color: red;
+    cursor: pointer;
+}
+.titulo-producto-carrito{
+    font-size: 1.1rem;
+    font-family:'Times New Roman', Times, serif;
+}
+.precio--producto-carrito {
+    align-self: self-start;
+    font-weight: 500;
+    margin-right: .8rem;
+    font-size: 1.1rem;
+}
+.cantidad-producto-carrito {
+    font-weight: 700;
+    padding-inline: .5vw;
+    font-size: 1.1rem;
+}
+.cart-total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 20px;
+}
+.cart-total h6 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.total-pagar {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.hidden-cart {
+    display: none;
+}
+.cart-empty {
+    padding: 1.2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.btn{
+    background-color: var(--resaltado-tabla);
+    padding: .6vw;
+    font-size: 1rem;
+    color: white;
+    border-radius: 100vmax;
+    border-width: 5px;
+}
+.btn:hover{
+    background-color: var(--dorados);
+    color: rgb(0, 0, 0);
+}
+.btn:active{
+    background-color: var(--accent-color);
+    transform: rotateY(360deg);
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(0,0,0.58,1);
+}
+
+
+
+
+/* -------  Termina carrito de compra */
+
+
+
+
 .contenedor-sect-compras{
-    /* width: 100%; */
     height: auto;
     text-align: center;
-    /* font-size: 2em; */
     margin: 10vh 10vw;
     padding:1vw;
     background-color: rgba(5, 216, 61, 0.579);
@@ -757,72 +931,69 @@ div.advertencia_celular img{
 .contenedor-sect-compras h4{
     font-size: 4em;
     margin-bottom: 10vh;
+    text-shadow: 2px 3px 2px  rgba(0, 0, 0, 0.5);;
 }
 
-.espacio-productos{
-    border-collapse: collapse; 
-    margin: 8vw 2.5vw 5vw 2.5vw;
-    box-shadow: 1px 1px 20px rgb(245, 233, 123), -1px -1px 20px rgb(245, 233, 123);
-    table-layout: fixed;
+.btn-ordenar{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-bottom: 1.5vh;
+}
 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
-.espacio-productos h6{
-    font-size: 2em;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    transition-property: all;
-    transition-duration: 2s;
-    transition-timing-function: cubic-bezier(0,0,0.58,1);
-    
+
+@media screen and (min-width: 600px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
 }
-.espacio-productos h6:hover{
-    background-color: #5DC1B9;
-    border: 0.5vw inset;
-    padding: 0.8vw 0.8vw;
-    transition-property: all;
-    transition-duration: 1.5s;
-    transition-timing-function: cubic-bezier(0,0,0.58,1);
-    
+@media screen and (min-width: 1000px){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
-.espacio-productos img{
-    object-fit: cover;
-    display: block;
+
+.tarjeta{
+    border-radius: 1rem;
+    background-color: rgba(0, 89, 85, 0.587);
+    box-shadow: 0px 0px 5px 5px rgb(245, 233, 123);
+    padding-block: 1rem;
+    position: relative;
+    isolation: isolate;
+    margin: 1rem .5rem;
+    /* overflow-y: scroll; */
+}
+.imagen-tarjeta{
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.imagen-tarjeta img{
     width: 100%;
-    height: auto;
+    max-width: 25rem;
+    
 }
-
-
-.mercancias{
+.info-mercancia{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap:.5rem ;
+    padding-inline: 1rem;
     align-items: center;
-}
-.mercancias form select {
-    width: auto;
-    height: 45px;
-    padding: 1vw;
-    margin: 10px 0;
-    border: 1px solid rgb(204, 204, 204);
-    border-radius: 4px;
-}
-.mercancias form input[type="submit"] {
-    background-color: #19bb3f;
-    color: white;
-    margin: 10px 20px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-    font-size: 1.3em;
+    text-align: center;
 }
 
 .nombre-mercancia{
     font-size: 2.5vw;
+    font-weight: 700;
     padding-top: 3vh;
     margin-bottom: 1vh;
-    color: var(--text-color);
+    color: var(--dorados);
+    text-transform: uppercase;
 }
 .nombre-mercancia:hover{
     transform: rotateY(360deg);
@@ -831,11 +1002,12 @@ div.advertencia_celular img{
     transition-timing-function: cubic-bezier(0,0,0.58,1);
 }
 .descripcion-mercancia{
-    width: 80%;
+    color: #000;
+    padding-inline: 1vw;
     font-family: Ro;
-    font-size: 1.6vw;
-    margin-bottom: 4vw;
-    margin-top: 2vh;
+    font-size: 1.3rem;
+    margin-bottom: 2vh;
+    margin-top: 1.3vh;
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0,0,0.58,1);
@@ -845,40 +1017,56 @@ div.advertencia_celular img{
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0,0,0.58,1);
-    border: 0.5vw inset;
+    border: 0.5vw inset var(--background-boton);
     border-radius: 2vw;
-    padding: 0.8vw 0.8vw;
+    padding: .8vh .8vw;
 }
 
+/* ------ Botones Añadir */
 
-
-.cont-proceso-pago{
-    height: auto;
-    /* text-align: center; */
-    margin: 10vh 30vw;
-    padding:1vw;
-    background-color: rgba(5, 205, 216, 0.579);
-    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 1.5vw;
-}
-
-.cont-proceso-pago h5{
-    text-align: center;
-    font-size: 2em;
-}
-.cont-proceso-pago form input[type="submit"] {
-    background-color: #1977bb;
+#btnAdd{
+    background-color: #19bb3f;
+    border: .5rem outset var(--background-boton);
     color: white;
-    /* margin: 10px 20px; */
-    /* padding: 10px 15px; */
-    border: none;
-    border-radius: 4px;
+    margin: 1rem 2rem;
+    padding: .5rem 1rem;
     cursor: pointer;
-    float:none;
     font-size: 1.3em;
 }
+#btnAdd:hover{
+    border: .5rem inset var(--dorados);
+}
+#btnAdd:active{
+    color: #000;
+    background-color: var(--accent-color);
+    border: .5rem outset var(--background-boton);
+    transform: rotateY(360deg);
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(0,0,0.58,1);
+}
+/* ------------------------------------------------------------------ */
 
 
+
+@media (min-width: 1093px) {
+    /* i {
+        font-size: 3.5rem;
+    } */
+
+    /* .cont-products {
+        top: 55%;
+        right: 0;
+        font-size: 1rem;
+        width: 25px;
+        height: 25px;
+        
+    } */
+
+    /* .container-cart-products {
+        width: 400px;
+    } */
+}
 
 
 
@@ -891,7 +1079,7 @@ div.advertencia_celular img{
 }
 
 
-@media only screen and (max-width:644px){
+@media (max-width:644px){
     .content{
         /* height: 50vh; */
         display: flex;
@@ -1192,7 +1380,7 @@ div.advertencia_celular img{
         height:fit-content;
     }
     .nombre{
-        font-size: 4.4em;
+        font-size: 4em;
         color: var(--dorados);
         margin-bottom: 5vh;
     }
@@ -1331,6 +1519,141 @@ div.advertencia_celular img{
     }
     /* ---------------COMPRAS */
 
+
+    nav.pag-compra{
+        position: fixed;
+        top: 3vw;
+        left: 1vw;
+        margin: 1vw;
+        z-index: 100;
+    }
+    a.border-pag-compra {
+        color: var(--secondary-color);
+        text-decoration: none;
+        font-size: .8rem;
+        transition: color 0.5s ease-in-out;
+        text-align: center;
+        border: 1vw inset;
+        border-color: rgb(5, 216, 60) ;
+        border-radius: 1.5vw;
+        padding: 1vw;
+        background-color: #2c2c2ce0;
+        height:fit-content;
+    }
+    a.border-pag-compra:hover {
+        color: rgb(5, 216, 60);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);;
+    }
+    i {
+        color: #000000;
+        font-size: 3rem;
+    }
+    .container-icon {
+        position: sticky;
+        top: 2vh;
+        left: 90vw;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8vw;
+        /* background-color:#a0d8f1; */
+    }
+    .cont-products {
+        position: absolute;
+        top: 4vh;
+        right: 7vw;
+        margin-left: 0vw;
+        width: 5vw;
+        height: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: .8rem;
+    }
+    .container-cart-products {
+        position: absolute;
+        top: 7vh;
+        right: 0;
+        margin-right: 1vw;
+        z-index: 10;
+        width: 70vw;
+        box-shadow: 0 10px 2px rgba(0, 0, 0, 0.281);
+        border-radius: 10px;
+
+    }
+    .cart-product {
+        display: flex;
+        padding: .4rem;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    
+    }
+    .info-cart-product {
+        display: flex;
+        font-family:'Times New Roman', Times, serif ;
+        justify-content: space-between;
+        flex: 1;
+    }
+    .icon-close {
+        font-size: 1rem;
+        color: #fb952c;
+    }
+    .icon-close:hover {
+        color: red;
+        cursor: pointer;
+    }
+    .titulo-producto-carrito{
+        font-size: .8rem;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .precio--producto-carrito {
+        align-self: self-start;
+        font-weight: 500;
+        margin-right: .8rem;
+        font-size: .8rem;
+    }
+    .cantidad-producto-carrito {
+        font-weight: 700;
+        padding-inline: .5vw;
+        font-size: .8rem;
+    }
+    .cart-total {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+        gap: 20px;
+    }
+    .cart-total h6 {
+        font-weight: 500;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .total-pagar {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .hidden-cart {
+        display: none;
+    }
+    .cart-empty {
+        padding: 1.2rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .btn{
+        background-color: var(--resaltado-tabla);
+        padding: .6vw;
+        font-size: .9rem;
+        color: white;
+        border-radius: 100vmax;
+        border-width: 5px;
+    }
+
     .contenedor-sect-compras{
         margin-top: 10vh;
     }
@@ -1339,64 +1662,35 @@ div.advertencia_celular img{
         font-size: 2.3em;
         margin-bottom: 8vh;
     }
-    .espacio-productos h6{
-        font-size: 1.5em;
-    }
     .nombre-mercancia{
-        font-size: 1.4em;
-    }
-    .mercancias form{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 40vw;
-    }
-    .mercancias form select {
-        width: auto;
-        height: 45px;
-        padding: 1vw;
-        margin: 10px 0px;
-        border: 1px solid rgb(204, 204, 204);
-        border-radius: 4px;
-    }
-    .mercancias form input[type="submit"] {
-        width: auto;
-        background-color: #19bb3f;
-        color: white;
-        margin: 10px 0px;
-        padding: 10px 15px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        float:none;
-        font-size: 1.2em;
+        font-size: 1.4rem;
     }
     .descripcion-mercancia{
-        font-size: 1.5em;
+        font-size: 1rem;
     }
 
-    .cont-proceso-pago{
-        height: auto;
-        text-align: center;
-        width: 70%;
-        margin: 2vh auto;
-    }
-    
-    .cont-proceso-pago h5{
-        text-align: center;
-        font-size: 2em;
-    }
-    .cont-proceso-pago form input[type="submit"] {
-        background-color: #1977bb;
+
+    #btnAdd{
+        background-color: #19bb3f;
+        border: .5rem outset var(--background-boton);
         color: white;
-        /* margin: 10px 20px; */
-        /* padding: 10px 15px; */
-        border: none;
-        border-radius: 4px;
+        margin: 1rem 2rem;
+        padding: .5rem 1rem;
         cursor: pointer;
-        float:none;
-        font-size: 1em;
+        font-size: 1rem;
     }
+
+    #titulocat{
+        font-size: .7rem;
+    }
+    #mayor{
+        font-size: .7rem;
+    }
+    #menor{
+        font-size: .7rem;
+    }
+
+
 
 
 

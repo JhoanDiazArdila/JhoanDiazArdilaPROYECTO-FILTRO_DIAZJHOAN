@@ -1,0 +1,44 @@
+[
+    {
+        "imagen": "imagenes/pastilla1.png",
+        "nombre": "CLONAZEPAM 2mg",
+        "precio": 40000,
+        "descripcion": "El clonazepam es un medicamento de la clase de las benzodiazepinas, utilizado principalmente para tratar trastornos de ansiedad, epilepsia, y ciertos tipos de convulsiones. Funciona al aumentar la actividad de un neurotransmisor en el cerebro, lo que ayuda a reducir la excitación nerviosa. Es conocido por sus efectos calmantes y relajantes."
+    },
+    {
+        "imagen": "imagenes/pastilla2.png",
+        "nombre": "DIAZEPAM (Valium) 10mg",
+        "precio": 60000,
+        "descripcion": "Diazepam (Valium) es una benzodiazepina utilizada para tratar la ansiedad, los espasmos musculares, y los trastornos convulsivos. Es conocido por su efecto calmante y relajante, ayudando a aliviar la tensión y la inquietud. Disponible en presentaciones de 10 mg, Diazepam actúa rápidamente para proporcionar alivio en situaciones de estrés agudo y es ideal para el tratamiento a corto plazo."
+    },
+    {
+        "imagen": "imagenes/pastilla3.png",
+        "nombre": "ALPRAZOLAM (Xanax)",
+        "precio": 80000,
+        "descripcion": "Alprazolam (Xanax) es una benzodiazepina eficaz para el tratamiento de trastornos de ansiedad y ataques de pánico. Con su acción rápida, ayuda a reducir la ansiedad y proporciona un alivio casi inmediato en situaciones de alto estrés. Disponible en presentaciones de 2 mg, Xanax es adecuado para diferentes niveles de tratamiento."
+    },
+    {
+        "imagen": "imagenes/bonsai.png",
+        "nombre": "BONSAI",
+        "precio": 500000,
+        "descripcion": "Transformar las cenizas en un árbol tiene un gran valor simbólico para las famílias y es una opción sostenible. Son muchos los que hace años llevan a cabo esta práctica y lo hacen de manera intuitiva y natural: esparcen las cenizas en un jardín para luego plantar un árbol o planta y asi seguir cuidando de sus queridos."
+    },
+    {
+        "imagen": "imagenes/palmera.png",
+        "nombre": "PALMERA TALIPOT",
+        "precio": 2000000,
+        "descripcion": "La palma Talipot, científicamente conocida como Corypha Umbraculifera, es una de las palmeras más impresionantes y majestuosas del mundo. La ley de la conservación de la energía, la energía ni se crea ni se destruye, solo se transforma. Así que la muerte representa solamente un final relativo, pues volvemos a la naturaleza para seguir formando parte del ecosistema terrestre. Siempre a la vista del mundo para nunca ser olvidado."
+    },
+    {
+        "imagen": "imagenes/Arce.png",
+        "nombre": "ARCE JAPONES",
+        "precio": 4000000,
+        "descripcion": "Su elegancia y belleza lo convierten en un espectáculo visual en cualquier jardín o paisaje. Con sus hojas delicadamente cortadas y su espectacular cambio de color en otoño, que abarca una paleta de rojos, naranjas y dorados, el arce japonés ofrece un toque de sofisticación y calidez a su entorno. Transformar las cenizas en un árbol es contribuir en una mejora para nosotros y para la naturaleza. Plantar un árbol con las cenizas es, en definitiva, un compromiso y una manera de seguir con el ciclo de la vida."
+    },
+    {
+        "imagen": "imagenes/cobija.png",
+        "nombre": "UN ABRAZO ETERNO",
+        "precio": 200000,
+        "descripcion": "Muestra tu amor incondicional a tus queridos con un abrazo eterno. Que un adios no signifique el final para tus seres queridos, siempre estaras presente despues de tu partida. Podras regalar el ultimo abrazo durante tu partida y ellos podran sentirlo por el resto de sus vidas. Personalizado con tu nombre."
+    }
+]
